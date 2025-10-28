@@ -119,8 +119,8 @@ $(".paper").css("align-items", "flex-start");
 $(".paper").css("gap", "20px");
 $(".paper").css("padding", "10px 0");
 
-$(".paper-thumbnail").css("width", "150px");
-$(".paper-thumbnail").css("height", "150px");
+$(".paper-thumbnail").css("width", "180px");
+$(".paper-thumbnail").css("height", "180px");
 $(".paper-thumbnail").css("border", "2px solid #ddd");
 $(".paper-thumbnail").css("border-radius", "8px");
 $(".paper-thumbnail").css("box-shadow", "0 2px 4px rgba(0,0,0,0.1)");
