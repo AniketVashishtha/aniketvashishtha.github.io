@@ -52,8 +52,8 @@ const authordecoration = "none";
 const authorstyle = "normal";
 
 const selfcolor = highlightcolor;
-const selfweight = bodyfontweight;
-const selfdecoration = "none";
+const selfweight = 700;
+const selfdecoration = "underline";
 const selfstyle = "normal";
 
 const tagcolor = accentcolor;
@@ -112,3 +112,22 @@ $(".institution").css("color", insttitlecolor);
 $(".institution").css("font-size", insttitlesize);
 $(".years").css("color", instyearcolor);
 $(".years").css("font-size", instyearsize);
+
+// Apply thumbnail and layout styles
+$(".paper").css("display", "flex");
+$(".paper").css("align-items", "flex-start");
+$(".paper").css("gap", "20px");
+$(".paper").css("padding", "10px 0");
+
+$(".paper-thumbnail").css("width", "240px");
+$(".paper-thumbnail").css("height", "240px");
+$(".paper-thumbnail").css("border", "2px solid #ddd");
+$(".paper-thumbnail").css("border-radius", "8px");
+$(".paper-thumbnail").css("box-shadow", "0 2px 4px rgba(0,0,0,0.1)");
+$(".paper-thumbnail").css("flex-shrink", "0");
+$(".paper-thumbnail").css("object-fit", "contain");
+$(".paper-thumbnail").css("background-color", "#fafafa");
+$(".paper-thumbnail").css("padding", "12px");
+$(".paper-thumbnail").css("image-rendering", "auto");
+
+$(".paper-content").css("flex", "1");

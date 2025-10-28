@@ -35,6 +35,28 @@ a:hover {
 
 .paper {
     border-left: 1px solid #ddd;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.paper-thumbnail {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    border-radius: 8px;
+    flex-shrink: 0;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fafafa;
+    padding: 12px;
+    image-rendering: auto;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.paper-content {
+    flex: 1;
 }
 
 .menulink:hover {
@@ -77,9 +99,28 @@ a:hover {
         padding-top: 18px !important;
     }
 
+    .paper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .paper-thumbnail {
+        width: 160px;
+        height: 160px;
+    }
+
 }
 
-/* .thisauthor {
-          color: #111;
-          text-decoration: underline;
-    } */
+.thisauthor {
+          color: #111 !important;
+          text-decoration: underline !important;
+          font-weight: bold !important;
+    }
+
+span.thisauthor {
+          text-decoration: underline !important;
+          color: #111 !important;
+          font-weight: bold !important;
+    }
